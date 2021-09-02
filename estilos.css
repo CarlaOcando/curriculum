@@ -1,0 +1,31 @@
+h1 {text-align: center;background-color: rgba(170, 242, 252, 0.74);font-family: 'Source Serif Pro', serif;}
+h2 {font-family: 'Source Serif Pro', serif;background-color: rgba(187, 255, 246, 0.74);}
+body{background-color: rgba(255, 205, 238, 0.904);}
+
+p{font-family: 'Mate SC', serif;}
+
+.titulo{background-color: rgb(255, 152, 215);}
+.curriculum{
+	width: 700px;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 2;
+	column-gap: 40px;
+	column-rule: 1px solid rgb(0, 255, 213);
+	border-color: rgb(140, 0, 255);
+	border-width: 2px;
+	border-style: solid;
+}
+li{font-family: 'Mali', cursive;}
+img {width: 200px;}
+
+
+.multi {
+     position: relative;
+
+    background: url(img/boo1.PNG)right top no-repeat,
+	url(img/boo2.PNG) right bottom no-repeat,
+	url(img/boo2.PNG) 0 0 no-repeat;
+	background-size: 300px 300px;
+}
