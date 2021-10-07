@@ -1,0 +1,310 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+
+
+h1 {text-align: center;font-family: 'Source Serif Pro', serif;}
+h2 {font-family: 'Source Serif Pro', serif;background-color: rgba(187, 255, 246, 0.74);}
+body{background-color: rgba(255, 205, 238, 0.904);}
+
+header{background-image:url(img/fondoheader.JPG);background-repeat: no-repeat;background-size: 100%;}
+
+p{font-family:'Source Serif Pro', serif;font-size: 20px;margin: 20px;}
+
+.titulo{background-color: rgb(255, 152, 215);}
+.curriculum{
+	width: 90%;
+	padding: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	column-count: 3;
+	column-gap: 40px;
+	column-rule: 1px solid rgb(0, 255, 213);
+	border-color: rgb(140, 0, 255);
+	border-width: 2px;
+	border-style: solid;
+}
+li{font-family: 'Mali', cursive;}
+
+
+#betty {width: 250px;}
+#maquillajebetty {width: 310px;margin-top: 60px;}
+
+.curriculum img {width: 230px;margin: 5px;}
+
+#imagencentral {display: block;margin: auto;width: 60%;}
+
+footer{display: flex;flex-direction: row;justify-content: center; 
+background-color:rgba(187, 255, 246, 0.74) ;margin-top: 15px;}
+
+footer a {text-decoration: none;}
+
+.logoup {width: 30px;width: 75px;margin: 10px;}
+
+#video {display: block;margin: auto;width: 500px;}
+
+.cajas {
+box-shadow: 0px 0px 30px #ffffff;
+border:  1px solid #ffffff;}
+
+.cajas li {margin-left: 30px;}
+
+
+.logo1 {float: left;width: 100px;} 
+.logo2{float: right;width: 70px;}
+
+/*MICROSITIO*/
+
+
+.menu {
+	background-color:rgba(97, 172, 162, 0.74);
+	height: 75px;
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #ffffff;
+	box-shadow: 5px 0 10px rgb(0, 0, 0, .6);
+}
+.menu a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.menu h1 {
+	font-size: 40px;
+	margin-left: 20px;
+}
+
+
+
+.logo {
+	color: #ffffff;
+	font-size: 35px;
+	padding: 0 80px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+
+.menu_items {
+	display: flex;
+	list-style: none;
+	margin-right: 30px;
+}
+
+.menu_items li {
+	border-radius: 3px;
+	margin: 0 5px;
+}
+
+.menu_items li a {
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 7px 13px;
+	text-decoration: none;
+	font-size: 18px;
+	display: block;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.menu_items li:hover, li:active {
+	background-color: rgb(18, 68, 61);
+	transition: .4s;
+}
+
+
+
+
+#relevamientopdf {
+	width: 70%;
+	height: 80vh;
+	display: block;
+	margin: auto;
+	margin-top: 30px;
+}
+/*Wireframe*/
+.linea {
+	background: #550b51;
+	height: 5px;
+	width: 100%;
+	width: 100%;
+	display: block;
+}
+
+.galeria {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+	width: 95%;
+	margin: auto;
+	grid-gap: 10px;
+	padding: 40px 0;
+	overflow: hidden;
+}
+
+.galeria > a{
+	display: block;
+	position: relative;
+	overflow: hidden;
+	box-shadow: 0 0 6px rgba(0, 0, 0, .5);
+}
+
+.galeria img {
+	width: 100%;
+	vertical-align: top;
+	height: 300px;
+	object-fit: cover;
+	transition: transform 0.5s;
+}
+
+.galeria a:hover img {
+	filter: blur (2px);
+	transform: rotate(10deg)scale(1.3);
+}
+
+.light-box{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: rgba(0, 0, 0, .5);
+	transition: transform .3s ease-in-out;
+	width: 100%;
+	height: 100vh;
+	z-index: 1000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transform: scale(0);
+}
+
+.light-box img {
+	width: 30vw;
+	max-height: 90vh;
+}
+#image1 img {width: 75vw;max-height: 50vw;}
+#image4 img {width: 10vw;}
+#image6 img {width: 8vw;}
+.light-box:target {
+	transform: scale(1);
+}
+
+.close {
+	display: block;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+	background: #851919;
+	color: #fff;
+	text-decoration: none;
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+}
+
+.next {
+	display: block;
+	background: #851919;
+	color: #fff;
+	height: 30px;
+	width: 30px;
+	line-height: 30px;
+	text-decoration: none;
+	text-align: center;
+}
+/*TEXTO*/ 
+
+   #micrositiotext h1{
+	   font-size: 80px;
+	   margin-top: 100px;
+	   
+   }
+
+   footer h1 {margin-top: 30px;}
+
+   #micrositiotext h2{background: none;text-align: center;}
+   #micrositiotext {background-color: rgb(255, 255, 255);}
+   #moment2 {margin-top: 20px;}
+   #legajo {margin-top: 260px;}
+   #footermicrositio {margin-top: 25px;}
+
+   #elecciones  {width: 65%;
+   display: block;
+   margin: auto;
+   margin-top: 15px;
+   }
+   #text1elecciones { font-size: 50px;
+   margin-top: 10px;
+   font-family: sans-serif;}
+   
+   a{text-decoration: none;font-weight: bold;color: black;}
+
+   a:hover {color: rgb(255, 255, 255);background-color: rgb(65, 35, 62);
+   border-radius: 30%;}
+   
+   #personalidad3 {width: 350px;height: 160px;}
+   .aspecto2 {height: 290px;}
+
+
+/*Tablets*/
+@media (min-width: 768px) and (max-width:991px){
+	#imagencentral {width: 75%;}
+	#betty  {width: 260px;}
+	.curriculum {column-count: 2;}
+	.cajas {margin-top: 15px;}
+
+	.curriculum img {width: 200px;display: 
+	block;margin: auto;
+	border-radius: 10px;
+	padding: 10px;
+}
+    #personalidad3 {width: 300px;}
+	#outfitviejo3 {display: none;}
+    #maquillajebetty {display: none;}
+	#video {width: 400px;margin-top: 10px;}
+	li {font-size: 20px;}
+
+	.logo {
+		padding: 0 60px;
+	}
+	#relevamientopdf {width: 90%;height: 82vh;}
+
+	#elecciones {width: 90%;}
+
+}
+
+/*celular*/
+@media (min-width:576px) and (max-width:767px){
+	.curriculum{margin-top: 10px; column-count: 1;}
+	.curriculum img{display: block;margin: auto;padding: 10px;}
+	#imagencentral {display: none;}
+	#betty{width: 240px;}
+	p{font-size: 20px;}
+	.personalidad2 {display: none;}
+	.aspecto2 {display: none;}
+	.outfitviejo2 {display: none;}
+	.outfitnuevo2 {display: none;}
+	#video {margin-top: 20px;}
+	li {font-size: 20px;}
+    .menu {height: 100px;}
+	.menu_items {
+		display: flex;
+		margin-top: 70px;
+		margin-left: 40px;
+		position: absolute;
+	}
+    #text1elecciones h1 {font-size: 30px;margin-top: 30px;}
+	#elecciones {width: 90%;}
+	.logo {
+		padding: 0 60px;
+	}
+	#relevamientopdf {width: 100%;}
+	.menu a {text-decoration: none;color: #ffffff;}
+	.menu h1 {
+	font-size: 34px;
+	margin-left: 55px;
+     }
+    
+    
+
+}
+
+
